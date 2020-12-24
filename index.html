@@ -1,0 +1,112 @@
+<html>
+    <head>
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		
+		<style>
+		
+body {margin: 0;padding: 0;font-family: 'Roboto', sans-serif;overflow: hidden;}
+header { width: 100%;}
+ul {  list-style: none;}
+a {  text-decoration: none;  color: inherit;}
+			
+#nav_bar {  float: right;}
+#nav_bar li {  display: inline-block;padding: 6px;text-align: center;}
+#nav_bar #sign_in {  background: #4887ef; margin-right: 15px;padding: 7px 7px; border-radius: 3px;}
+.nav-links {  color: #404040;font-size:14;}
+
+
+#sign_in:hover {box-shadow: 1px 1px 5px #999;}
+#sign_in {  color: #fff;}
+
+.google #google_logo {  text-align: center;display: block;margin: 0 auto;clear: both;  padding-top: 85px;padding-bottom: 20px;}
+
+.form {  text-align: center; }
+form:hover{box-shadow:#a9a9a9 1px 0 5px;}
+.form form{border-radius: 50px; width:550px;margin-left: 390px;border:1px solid #f5f5dc;border:hidden;}			
+#form-search {  border:none;width: 450px;padding: 20px 10px;}
+			#form-Search:focus{outline: none ;}
+
+
+.buttons {text-align: center;  padding-top:20px;}
+.buttons input{background-color: aliceblue;margin: 10px; border:1px solid #fff;padding:8px;font-size: 14px;}			
+.buttons input:hover{border: 1px solid #d6d6c2;}
+
+.languges{text-align: center;  padding-top: 20px;margin-bottom: 145px;}
+.languges ul { padding: 1px; margin: 0;}
+.languges ul li {display: inline; padding: 2px;font-size: 14px;}
+.languges ul li a{color: #0000ff;}			
+.languges ul li a:hover{color:#0000ff; text-decoration: underline;}
+			
+.region{ background: #f2f2f2;border-top: solid 2px #e4e4e4;width: 100%;padding: 8px;}			
+.region a{padding: 15px;color: #666666;font-size: 14px;}
+
+footer{ background: #f2f2f2;border-top: solid 2px #e4e4e4;bottom:0;padding-bottom:5px;width: 100%;}
+footer ul li {  display: inline;color: #666666;font-size: 14px;padding:8px;}
+footer ul {  float: left;padding: 2px; margin: 0;}
+footer ul a:hover {  text-decoration: underline;}
+.footer-right {  float: right;}
+
+
+</style>
+	</head>
+    <body>
+		 <header>
+		  <nav>
+			<ul id="nav_bar">
+			  	<li class="nav-links" id="gmail"><a href="#" style="">Gmail</a></li>
+			  	<li class="nav-links"><a href="#">Images</a></li>
+				<li class="nav-links"><a ><i class="fa fa-th" style="font-size:18px;"></i></a></li>
+			  	<li id="sign_in" style="font-size: 14px"><a href="#" >Sign In</a></li>
+			</ul>  
+		  </nav>  
+		</header>  
+
+		<div class="google">
+		  <a href="#" id="google_logo"><img src="googlelogo.png" alt="googlelogo"></a>
+		</div>
+
+		<div class="form">  
+		  <form>
+			   <i class="fa fa-search" style="color:#a9a9a9;"></i>
+			<label for="form-search"></label>
+			<input type="text" id="form-search" style="text-decoration: none;" placeholder="Search Google or type URL">
+			  <i class="fa fa-microphone"></i>
+		  </form>
+		</div>  
+
+		
+		<div class= "buttons"> 
+		  <input type="submit" value="Google Search" id="google_search">
+		  <input type="submit" value="I'm Feeling Lucky" id="im_feeling_lucky">
+		</div>
+			<div class="languges">
+				<ul>
+					<li>Google offered in:</li>
+					<li><a href="#">हिन्दी</a></li>
+					<li><a href="#"> বাংলা</a></li>
+					<li><a href="#">తెలుగ</a></li>
+					<li><a href="#">मराठी</a></li>
+					<li><a href="#">தமிழ்</a></li>
+					<li><a href="#">ગુજરાતી </a></li>
+					<li><a href="#">ಕನ್ನಡ</a></li>
+					<li><a href="#">മലയാളം</a></li>
+					<li><a href="#">ਪੰਜਾਬੀ</a></li>
+				</ul>
+			</div>
+		
+		<div class='region'><a>India</a></div>
+		<footer>
+			<ul class="footer-left">
+			  <li><a href="#">Advertising</a></li>
+			  <li><a href="#">Business</a></li>
+			  <li><a href="#">About</a></li> 
+				<li><a href="#">How Search works</a></li> 
+			</ul>
+			<ul class="footer-right">    
+			  <li><a href="#">Privacy</a></li>
+			  <li><a href="#">Terms</a></li>
+			  <li><a href="#">Settings</a></li>
+			</ul>       
+		</footer>   
+    </body>
+</html>
